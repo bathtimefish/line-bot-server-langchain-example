@@ -1,6 +1,6 @@
 import fastify from 'fastify';
-import fastifyCors from 'fastify-cors';
-import fastifyStatic from 'fastify-static';
+import fastifyCors from '@fastify/cors';
+import fastifyStatic from '@fastify/static';
 import { readFileSync } from 'fs';
 import path from 'path';
 import config from './config';

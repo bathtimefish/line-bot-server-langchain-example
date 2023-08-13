@@ -38,8 +38,8 @@
   "dependencies": {
     "@line/bot-sdk": "^7.3.0",
     "fastify": "^3.20.1",
-    "fastify-cors": "^6.0.2",
-    "fastify-static": "^4.2.3",
+    "@fastify/cors": "^7.0.0",
+    "@fastify/static": "^5.0.0",
     "langchain": "^0.0.127"
   },
   "devDependencies": {
